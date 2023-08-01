@@ -143,7 +143,7 @@
     }
 
     .form-container{
-        border-color: transparent;
+        background-color: transparent;
         box-shadow: none;
     }
 
@@ -152,4 +152,18 @@
 }
 
     
+}
+
+@media(max-width:320px){
+    .section-1-heading {
+        top: 61vw;
+        font-size: 4rem;
+        width: 37rem;
+    }
+    .customer{
+        margin: 5rem;
+    }
+    .team-member{
+        margin: 5rem;
+    }
 }
